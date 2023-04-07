@@ -36,8 +36,6 @@ This program is designed to help deal addicts better monitor price drops and red
 - source_key (product no. or URL at the source)
 - target_px (the desired price)
 - target_qty (the desired stock quantity)
-- in_stock (y/n)
-- stock_qty (optional, may not be available)
 
 ### ProductWatcher - an abstract adapter that observes a product at its source
 - get_url(product_id) - returns the URL to the product for a given product ID
